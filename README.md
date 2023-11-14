@@ -76,10 +76,10 @@ To set up a virtual environment, follow these steps:
 To configure the application, there are a few properties that can be set either via the environment or via config.json.  The environment variable takes priority.
 
 ```plaintext
-| Field               | Env Variable    | config.json     | examples                                           |
-|---------------------|-----------------|-----------------|----------------------------------------------------|
-| The OpenAI Api Key  | OPENAI_API_KEY  | openai_key      | sk-...
-| The OpenAI Base URL | OPENAI_API_BASE | openai_api_base | <https://api.openai.com>
+| Field               | Env Variable    | config.json     | examples                    |
+|---------------------|-----------------|-----------------|-----------------------------|
+| The OpenAI Api Key  | OPENAI_API_KEY  | openai_key      | sk-...                      |
+| The OpenAI Base URL | OPENAI_API_BASE | openai_api_base | <https://api.openai.com>    |
 ```
 
 Use the Base URL if you need to run your queries through a reverse proxy (like [this one](https://github.com/stulzq/azure-openai-proxy) which will run your queries through Azure's OpenAI endpoints )
