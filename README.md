@@ -105,3 +105,12 @@ Launch the image using Compose
 ```bash
 docker-compose up
 ```
+
+## Releases
+
+Creating new release tags:
+
+```bash
+git tag v0.1.1 -f
+git push --tags -f
+```
