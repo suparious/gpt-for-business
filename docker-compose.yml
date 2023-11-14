@@ -1,9 +1,9 @@
 version: '3.5'
 
 services:
-  chatgpt-clone:
-    image: chatgpt-clone
-    container_name: chatgpt-clone
+  gpt-for-business:
+    image: gpt-for-business
+    container_name: gpt-for-business
     build:
       context: .
       dockerfile: Dockerfile
